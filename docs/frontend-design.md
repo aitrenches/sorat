@@ -305,5 +305,4 @@ This design approach not only improves operational efficiency but also enhances 
 ---
 
 **Document Version:** 1.0  
-**Last Updated:** January 2025  
-**Next Review:** March 2025 
+**Last Updated:** January 2025

@@ -120,5 +120,4 @@ The SORAT deployment follows a phased approach:
 ---
 
 **Document Version:** 1.0  
-**Last Updated:** July 2025  
-**Next Review:** October 2025 
+**Last Updated:** July 2025
