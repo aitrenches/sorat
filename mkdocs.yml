@@ -1,0 +1,44 @@
+site_name: SORAT
+nav:
+  - Home: index.md
+  - Project Overview: project-overview.md
+  - System Architecture: system-architecture.md
+  - Frontend Design: frontend-design.md
+  - Backend Design: backend-design.md
+  - Database Design: database-design.md
+  - API Design: api-design.md
+  - DevOps: devops.md
+  - Deployment: deployment.md
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.magiclink
+  - pymdownx.betterem
+  - pymdownx.smartsymbols
+  - pymdownx.arithmatex
+  - pymdownx.progressbar
+  - pymdownx.saneheaders
+  - pymdownx.striphtml
+  - pymdownx.escapeall
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search

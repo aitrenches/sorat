@@ -1,0 +1,96 @@
+# Deployment
+
+## Overview
+
+SORAT supports flexible deployment options to meet the needs of modern port operations, including cloud, on-premise, and hybrid models. The deployment process is designed for reliability, scalability, and security, ensuring minimal downtime and rapid go-live.
+
+## 1. Deployment Topology
+
+The system can be deployed in various configurations:
+- **Cloud Deployment:** All backend services and databases are hosted in a secure cloud environment.
+- **On-Premise Deployment:** Core services are installed within the port’s own data center for maximum control and compliance.
+- **Hybrid Deployment:** Combines cloud and on-premise components, with edge devices operating at port entry/exit points.
+- **Edge Devices:** IoT hardware and cameras are installed at strategic locations for real-time data capture and local processing.
+
+### 1.1 Deployment Topology Diagram
+
+```mermaid
+graph TD
+    A[Cloud Environment] --> B[Backend Services]
+    B --> C[Database]
+    B --> D[Notification Engine]
+    B --> E[API Gateway]
+    E --> F[Web Dashboard]
+    E --> G[Mobile App]
+    A --> H[Monitoring & Logging]
+    I[On-Premise Data Center] --> J[Backend Services (On-Prem)]
+    J --> K[Local Database]
+    J --> L[API Gateway (On-Prem)]
+    L --> M[Web Dashboard (On-Prem)]
+    N[Edge Devices] --> O[IoT Cameras/Sensors]
+    O --> P[Local Processing]
+    P --> B
+    P --> J
+    style A fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    style B fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
+    style E fill:#F44336,stroke:#B71C1C,stroke-width:2px,color:#fff
+    style F fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
+    style G fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
+    style H fill:#3F51B5,stroke:#1A237E,stroke-width:2px,color:#fff
+    style I fill:#E91E63,stroke:#880E4F,stroke-width:2px,color:#fff
+    style J fill:#009688,stroke:#004D40,stroke-width:2px,color:#fff
+    style K fill:#673AB7,stroke:#311B92,stroke-width:2px,color:#fff
+    style L fill:#FF5722,stroke:#BF360C,stroke-width:2px,color:#fff
+    style M fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
+    style N fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    style O fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    style P fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+```
+
+## 2. Deployment Workflow
+
+The deployment process follows a structured workflow to ensure a smooth rollout:
+- **Provisioning:** Infrastructure and resources are provisioned in the target environment.
+- **Configuration:** System components are configured for the specific deployment model.
+- **Installation:** Core services, databases, and edge devices are installed and connected.
+- **Testing:** End-to-end testing of all components and integrations.
+- **Go-Live:** System is launched for production use.
+- **Monitoring:** Continuous monitoring and support post-launch.
+
+### 2.1 Deployment Workflow Diagram
+
+```mermaid
+graph TD
+    A[Provision Infrastructure] --> B[Configure System]
+    B --> C[Install Core Services]
+    C --> D[Connect Edge Devices]
+    D --> E[Integration Testing]
+    E --> F[Go-Live]
+    F --> G[Continuous Monitoring]
+    G --> H[Support & Maintenance]
+    style A fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    style B fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
+    style E fill:#F44336,stroke:#B71C1C,stroke-width:2px,color:#fff
+    style F fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
+    style G fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
+    style H fill:#3F51B5,stroke:#1A237E,stroke-width:2px,color:#fff
+```
+
+## 3. Key Deployment Features
+
+- **Flexible Topology:** Cloud, on-premise, and hybrid support
+- **Edge Integration:** Real-time data capture and processing at the port
+- **Automated Provisioning:** Infrastructure as Code for repeatable deployments
+- **Zero Downtime:** Blue/green and rolling deployment strategies
+- **Comprehensive Testing:** Automated and manual validation before go-live
+- **Continuous Monitoring:** Proactive support and rapid incident response
+
+---
+
+**Document Version:** 1.0  
+**Last Updated:** July 2025  
+**Next Review:** October 2025 
