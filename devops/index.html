@@ -638,58 +638,45 @@
 <h2 id="overview">Overview</h2>
 <p>SORAT employs modern DevOps practices to ensure rapid, reliable, and secure delivery of software updates, infrastructure management, and operational monitoring. The DevOps approach enables continuous improvement, high system availability, and fast response to operational issues.</p>
 <h2 id="1-cicd-pipeline">1. CI/CD Pipeline</h2>
-<p>The Continuous Integration and Continuous Deployment (CI/CD) pipeline automates the process from code commit to production deployment:
-- <strong>Source Control:</strong> All code is managed in a version-controlled repository (e.g., GitHub, GitLab)
-- <strong>Automated Build:</strong> Code is automatically built and tested on every commit
-- <strong>Static Analysis &amp; Security Scans:</strong> Automated checks for code quality and vulnerabilities
-- <strong>Automated Testing:</strong> Unit, integration, and end-to-end tests
-- <strong>Artifact Management:</strong> Build artifacts are stored for traceability
-- <strong>Deployment:</strong> Automated deployment to staging and production environments
-- <strong>Rollback:</strong> Rapid rollback in case of failure</p>
+<p>The Continuous Integration and Continuous Deployment (CI/CD) pipeline automates the process from code commit to production deployment:</p>
+<ul>
+<li><strong>Source Control:</strong> All code is managed in a version-controlled repository (e.g., GitHub, GitLab)</li>
+<li><strong>Automated Build:</strong> Code is automatically built and tested on every commit</li>
+<li><strong>Static Analysis &amp; Security Scans:</strong> Automated checks for code quality and vulnerabilities</li>
+<li><strong>Automated Testing:</strong> Unit, integration, and end-to-end tests</li>
+<li><strong>Artifact Management:</strong> Build artifacts are stored for traceability</li>
+<li><strong>Deployment:</strong> Automated deployment to staging and production environments</li>
+<li><strong>Rollback:</strong> Rapid rollback in case of failure</li>
+</ul>
 <h3 id="11-cicd-pipeline-diagram">1.1 CI/CD Pipeline Diagram</h3>
 <pre class="mermaid"><code>graph TD
-    A[Developer Commit] --&gt; B[Source Control]
-    B --&gt; C[CI Server (Build/Test)]
-    C --&gt; D[Static Analysis &amp; Security Scan]
-    D --&gt; E[Automated Testing]
-    E --&gt; F[Artifact Repository]
-    F --&gt; G[Staging Deployment]
-    G --&gt; H[Production Deployment]
-    H --&gt; I[Monitoring &amp; Alerting]
-    H --&gt; J[Rollback (if needed)]
-    style A fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    style B fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    style C fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    style D fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
-    style E fill:#F44336,stroke:#B71C1C,stroke-width:2px,color:#fff
-    style F fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
-    style G fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
-    style H fill:#3F51B5,stroke:#1A237E,stroke-width:2px,color:#fff
-    style I fill:#E91E63,stroke:#880E4F,stroke-width:2px,color:#fff
-    style J fill:#FF5722,stroke:#BF360C,stroke-width:2px,color:#fff</code></pre>
+    A["Developer Commit"] --&gt; B["Source Control"]
+    B --&gt; C["CI Server (Build/Test)"]
+    C --&gt; D["Static Analysis &amp; Security Scan"]
+    D --&gt; E["Automated Testing"]
+    E --&gt; F["Artifact Repository"]
+    F --&gt; G["Staging Deployment"]
+    G --&gt; H["Production Deployment"]
+    H --&gt; I["Monitoring &amp; Alerting"]
+    H --&gt; J["Rollback (if needed)"]</code></pre>
 <h2 id="2-infrastructure-monitoring-alerting">2. Infrastructure Monitoring &amp; Alerting</h2>
-<p>SORAT uses automated monitoring and alerting to ensure system health and rapid incident response:
-- <strong>Metrics Collection:</strong> System, application, and network metrics are continuously collected
-- <strong>Log Aggregation:</strong> Centralized logging for all services
-- <strong>Alerting:</strong> Automated alerts for anomalies, failures, or security events
-- <strong>Dashboarding:</strong> Real-time dashboards for operational visibility
-- <strong>Incident Response:</strong> Defined playbooks for rapid resolution</p>
+<p>SORAT uses automated monitoring and alerting to ensure system health and rapid incident response:</p>
+<ul>
+<li><strong>Metrics Collection:</strong> System, application, and network metrics are continuously collected</li>
+<li><strong>Log Aggregation:</strong> Centralized logging for all services</li>
+<li><strong>Alerting:</strong> Automated alerts for anomalies, failures, or security events</li>
+<li><strong>Dashboarding:</strong> Real-time dashboards for operational visibility</li>
+<li><strong>Incident Response:</strong> Defined playbooks for rapid resolution</li>
+</ul>
 <h3 id="21-monitoring-alerting-flow-diagram">2.1 Monitoring &amp; Alerting Flow Diagram</h3>
 <pre class="mermaid"><code>graph TD
-    A[Application/Service] --&gt; B[Metrics Collector]
-    A --&gt; C[Log Aggregator]
-    B --&gt; D[Monitoring System (Prometheus/Grafana)]
+    A["Application/Service"] --&gt; B["Metrics Collector"]
+    A --&gt; C["Log Aggregator"]
+    B --&gt; D["Monitoring System (Prometheus/Grafana)"]
     C --&gt; D
-    D --&gt; E[Alert Manager]
-    E --&gt; F[On-call Engineer]
-    D --&gt; G[Dashboard]
-    style A fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    style B fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    style C fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    style D fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
-    style E fill:#F44336,stroke:#B71C1C,stroke-width:2px,color:#fff
-    style F fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
-    style G fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff</code></pre>
+    D --&gt; E["Alert Manager"]
+    E --&gt; F["On-call Engineer"]
+    D --&gt; G["Dashboard"]</code></pre>
 <h2 id="3-key-devops-features">3. Key DevOps Features</h2>
 <ul>
 <li><strong>Automated CI/CD:</strong> Rapid, reliable, and repeatable deployments</li>
