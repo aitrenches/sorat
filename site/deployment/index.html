@@ -745,37 +745,21 @@
 - <strong>Edge Devices:</strong> IoT hardware and cameras are installed at strategic locations for real-time data capture and local processing.</p>
 <h3 id="11-deployment-topology-diagram">1.1 Deployment Topology Diagram</h3>
 <pre class="mermaid"><code>graph TD
-    A[Cloud Environment] --&gt; B[Backend Services]
-    B --&gt; C[Database]
-    B --&gt; D[Notification Engine]
-    B --&gt; E[API Gateway]
-    E --&gt; F[Web Dashboard]
-    E --&gt; G[Mobile App]
-    A --&gt; H[Monitoring &amp; Logging]
-    I[On-Premise Data Center] --&gt; J[Backend Services (On-Prem)]
-    J --&gt; K[Local Database]
-    J --&gt; L[API Gateway (On-Prem)]
-    L --&gt; M[Web Dashboard (On-Prem)]
-    N[Edge Devices] --&gt; O[IoT Cameras/Sensors]
-    O --&gt; P[Local Processing]
+    A["Cloud Environment"] --&gt; B["Backend Services"]
+    B --&gt; C["Database"]
+    B --&gt; D["Notification Engine"]
+    B --&gt; E["API Gateway"]
+    E --&gt; F["Web Dashboard"]
+    E --&gt; G["Mobile App"]
+    A --&gt; H["Monitoring &amp; Logging"]
+    I["On-Premise Data Center"] --&gt; J["Backend Services (On-Prem)"]
+    J --&gt; K["Local Database"]
+    J --&gt; L["API Gateway (On-Prem)"]
+    L --&gt; M["Web Dashboard (On-Prem)"]
+    N["Edge Devices"] --&gt; O["IoT Cameras/Sensors"]
+    O --&gt; P["Local Processing"]
     P --&gt; B
-    P --&gt; J
-    style A fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    style B fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    style C fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    style D fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
-    style E fill:#F44336,stroke:#B71C1C,stroke-width:2px,color:#fff
-    style F fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
-    style G fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
-    style H fill:#3F51B5,stroke:#1A237E,stroke-width:2px,color:#fff
-    style I fill:#E91E63,stroke:#880E4F,stroke-width:2px,color:#fff
-    style J fill:#009688,stroke:#004D40,stroke-width:2px,color:#fff
-    style K fill:#673AB7,stroke:#311B92,stroke-width:2px,color:#fff
-    style L fill:#FF5722,stroke:#BF360C,stroke-width:2px,color:#fff
-    style M fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
-    style N fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    style O fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    style P fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff</code></pre>
+    P --&gt; J</code></pre>
 <h2 id="2-deployment-workflow">2. Deployment Workflow</h2>
 <p>The deployment process follows a structured workflow to ensure a smooth rollout:
 - <strong>Provisioning:</strong> Infrastructure and resources are provisioned in the target environment.
@@ -786,21 +770,13 @@
 - <strong>Monitoring:</strong> Continuous monitoring and support post-launch.</p>
 <h3 id="21-deployment-workflow-diagram">2.1 Deployment Workflow Diagram</h3>
 <pre class="mermaid"><code>graph TD
-    A[Provision Infrastructure] --&gt; B[Configure System]
-    B --&gt; C[Install Core Services]
-    C --&gt; D[Connect Edge Devices]
-    D --&gt; E[Integration Testing]
-    E --&gt; F[Go-Live]
-    F --&gt; G[Continuous Monitoring]
-    G --&gt; H[Support &amp; Maintenance]
-    style A fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    style B fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    style C fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    style D fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
-    style E fill:#F44336,stroke:#B71C1C,stroke-width:2px,color:#fff
-    style F fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
-    style G fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
-    style H fill:#3F51B5,stroke:#1A237E,stroke-width:2px,color:#fff</code></pre>
+    A["Provision Infrastructure"] --&gt; B["Configure System"]
+    B --&gt; C["Install Core Services"]
+    C --&gt; D["Connect Edge Devices"]
+    D --&gt; E["Integration Testing"]
+    E --&gt; F["Go-Live"]
+    F --&gt; G["Continuous Monitoring"]
+    G --&gt; H["Support &amp; Maintenance"]</code></pre>
 <h2 id="3-implementation-strategy">3. Implementation Strategy</h2>
 <p>The SORAT deployment follows a phased approach:</p>
 <h3 id="31-phase-1-foundation-months-1-3">3.1 Phase 1: Foundation (Months 1-3)</h3>

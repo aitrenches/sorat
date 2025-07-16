@@ -21,9 +21,6 @@ Navigate the documentation using the links below to explore each aspect of the S
 - [Frontend Design](frontend-design.md)
 - [DevOps](devops.md)
 - [Deployment](deployment.md)
-- [Security & Compliance](security.md)
-- [KPIs & Performance](kpi-performance.md)
-- [Risk Management](risk-management.md)
 
 ---
 

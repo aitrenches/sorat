@@ -16,37 +16,21 @@ The system can be deployed in various configurations:
 
 ```mermaid
 graph TD
-    A[Cloud Environment] --> B[Backend Services]
-    B --> C[Database]
-    B --> D[Notification Engine]
-    B --> E[API Gateway]
-    E --> F[Web Dashboard]
-    E --> G[Mobile App]
-    A --> H[Monitoring & Logging]
-    I[On-Premise Data Center] --> J[Backend Services (On-Prem)]
-    J --> K[Local Database]
-    J --> L[API Gateway (On-Prem)]
-    L --> M[Web Dashboard (On-Prem)]
-    N[Edge Devices] --> O[IoT Cameras/Sensors]
-    O --> P[Local Processing]
+    A["Cloud Environment"] --> B["Backend Services"]
+    B --> C["Database"]
+    B --> D["Notification Engine"]
+    B --> E["API Gateway"]
+    E --> F["Web Dashboard"]
+    E --> G["Mobile App"]
+    A --> H["Monitoring & Logging"]
+    I["On-Premise Data Center"] --> J["Backend Services (On-Prem)"]
+    J --> K["Local Database"]
+    J --> L["API Gateway (On-Prem)"]
+    L --> M["Web Dashboard (On-Prem)"]
+    N["Edge Devices"] --> O["IoT Cameras/Sensors"]
+    O --> P["Local Processing"]
     P --> B
     P --> J
-    style A fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    style B fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    style C fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    style D fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
-    style E fill:#F44336,stroke:#B71C1C,stroke-width:2px,color:#fff
-    style F fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
-    style G fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
-    style H fill:#3F51B5,stroke:#1A237E,stroke-width:2px,color:#fff
-    style I fill:#E91E63,stroke:#880E4F,stroke-width:2px,color:#fff
-    style J fill:#009688,stroke:#004D40,stroke-width:2px,color:#fff
-    style K fill:#673AB7,stroke:#311B92,stroke-width:2px,color:#fff
-    style L fill:#FF5722,stroke:#BF360C,stroke-width:2px,color:#fff
-    style M fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
-    style N fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    style O fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    style P fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
 ```
 
 ## 2. Deployment Workflow
@@ -63,21 +47,13 @@ The deployment process follows a structured workflow to ensure a smooth rollout:
 
 ```mermaid
 graph TD
-    A[Provision Infrastructure] --> B[Configure System]
-    B --> C[Install Core Services]
-    C --> D[Connect Edge Devices]
-    D --> E[Integration Testing]
-    E --> F[Go-Live]
-    F --> G[Continuous Monitoring]
-    G --> H[Support & Maintenance]
-    style A fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    style B fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    style C fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    style D fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
-    style E fill:#F44336,stroke:#B71C1C,stroke-width:2px,color:#fff
-    style F fill:#795548,stroke:#3E2723,stroke-width:2px,color:#fff
-    style G fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
-    style H fill:#3F51B5,stroke:#1A237E,stroke-width:2px,color:#fff
+    A["Provision Infrastructure"] --> B["Configure System"]
+    B --> C["Install Core Services"]
+    C --> D["Connect Edge Devices"]
+    D --> E["Integration Testing"]
+    E --> F["Go-Live"]
+    F --> G["Continuous Monitoring"]
+    G --> H["Support & Maintenance"]
 ```
 
 ## 3. Implementation Strategy

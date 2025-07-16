@@ -674,28 +674,36 @@
 <h2 id="overview">Overview</h2>
 <p>SORAT is built on a robust, modular architecture that combines IoT edge devices, AI-powered recognition, secure cloud/on-premise backend services, and real-time dashboards. The system is designed for scalability, security, and seamless integration with port operations.</p>
 <h2 id="1-high-level-system-architecture">1. High-Level System Architecture</h2>
-<p>The architecture consists of several key layers and components:
-- <strong>IoT Edge Layer:</strong> Devices and cameras at entry/exit points for real-time data capture and local processing.
-    - IoT Edge Device: Jetson Nano, Raspberry Pi 4, or industrial camera system
-    - HD IR Camera with night vision support
-    - Local storage: SSD or SD card for offline logging
-    - Power system: Solar + Battery backup for remote locations
-    - AI Plate Detection: OpenALPR/YOLOv5 ANPR/OpenCV + Tesseract
-    - Real-time video processing and plate extraction
-    - Local caching and offline mode support
-    - Edge ML model updates over-the-air
-- <strong>Backend Services:</strong>
-    - API Layer: Node.js, Python Flask, or FastAPI
-    - Database: PostgreSQL for transporter/plate registry, Firebase for real-time updates
-    - Authentication: Role-based access control for different stakeholder types
-    - Data Encryption: TLS + Local AES encryption for plate logs
-    - Notification Engine: Twilio, Firebase Cloud Messaging, WhatsApp Business API
-- <strong>Client Applications:</strong>
-    - Mobile Application: Cross-platform app for transporters and field operators
-    - Web Dashboard: ReactJS/VueJS admin interface for monitoring and management
-    - WhatsApp Integration: Business API for instant notifications
-    - SMS/Email Notifications: Multi-channel communication system
-- <strong>External Integrations:</strong> Optional modules for barrier gates, weight sensors, and third-party systems.</p>
+<p>The architecture consists of several key layers and components:</p>
+<ul>
+<li><strong>IoT Edge Layer:</strong> Devices and cameras at entry/exit points for real-time data capture and local processing.<ul>
+<li>IoT Edge Device: Jetson Nano, Raspberry Pi 4, or industrial camera system</li>
+<li>HD IR Camera with night vision support</li>
+<li>Local storage: SSD or SD card for offline logging</li>
+<li>Power system: Solar + Battery backup for remote locations</li>
+<li>AI Plate Detection: OpenALPR/YOLOv5 ANPR/OpenCV + Tesseract</li>
+<li>Real-time video processing and plate extraction</li>
+<li>Local caching and offline mode support</li>
+<li>Edge ML model updates over-the-air</li>
+</ul>
+</li>
+<li><strong>Backend Services:</strong><ul>
+<li>API Layer: Node.js, Python Flask, or FastAPI</li>
+<li>Database: PostgreSQL for transporter/plate registry, Firebase for real-time updates</li>
+<li>Authentication: Role-based access control for different stakeholder types</li>
+<li>Data Encryption: TLS + Local AES encryption for plate logs</li>
+<li>Notification Engine: Twilio, Firebase Cloud Messaging, WhatsApp Business API</li>
+</ul>
+</li>
+<li><strong>Client Applications:</strong><ul>
+<li>Mobile Application: Cross-platform app for transporters and field operators</li>
+<li>Web Dashboard: ReactJS/VueJS admin interface for monitoring and management</li>
+<li>WhatsApp Integration: Business API for instant notifications</li>
+<li>SMS/Email Notifications: Multi-channel communication system</li>
+</ul>
+</li>
+<li><strong>External Integrations:</strong> Optional modules for barrier gates, weight sensors, and third-party systems.</li>
+</ul>
 <h3 id="11-system-architecture-diagram">1.1 System Architecture Diagram</h3>
 <pre class="mermaid"><code>graph TD
     A["IoT Edge Device&lt;br/&gt;+ Camera"] --&gt; B["AI Plate Recognition&lt;br/&gt;(ANPR Engine)"]

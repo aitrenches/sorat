@@ -7,6 +7,7 @@ SORAT is built on a robust, modular architecture that combines IoT edge devices,
 ## 1. High-Level System Architecture
 
 The architecture consists of several key layers and components:
+
 - **IoT Edge Layer:** Devices and cameras at entry/exit points for real-time data capture and local processing.
     - IoT Edge Device: Jetson Nano, Raspberry Pi 4, or industrial camera system
     - HD IR Camera with night vision support

@@ -758,15 +758,17 @@
 <h2 id="overview">Overview</h2>
 <p>The SORAT platform uses a robust, scalable, and secure database architecture to manage all operational, transactional, and audit data. The design supports real-time operations, historical analytics, and regulatory compliance, while ensuring data integrity and high availability.</p>
 <h2 id="1-entity-relationship-model">1. Entity-Relationship Model</h2>
-<p>The core database entities include:
-- <strong>Transporter:</strong> Company and vehicle registration
-- <strong>Vehicle:</strong> Plate number, type, and operational status
-- <strong>Transaction:</strong> Import/export operations, status, and timestamps
-- <strong>Document:</strong> Permits, delivery orders, and compliance records
-- <strong>Notification:</strong> Multi-channel alerts and delivery status
-- <strong>User/Stakeholder:</strong> Role-based access and activity logs
-- <strong>Terminal:</strong> Port terminal operations and queue management
-- <strong>Audit Log:</strong> Full traceability of all changes and actions</p>
+<p>The core database entities include:</p>
+<ul>
+<li><strong>Transporter:</strong> Company and vehicle registration</li>
+<li><strong>Vehicle:</strong> Plate number, type, and operational status</li>
+<li><strong>Transaction:</strong> Import/export operations, status, and timestamps</li>
+<li><strong>Document:</strong> Permits, delivery orders, and compliance records</li>
+<li><strong>Notification:</strong> Multi-channel alerts and delivery status</li>
+<li><strong>User/Stakeholder:</strong> Role-based access and activity logs</li>
+<li><strong>Terminal:</strong> Port terminal operations and queue management</li>
+<li><strong>Audit Log:</strong> Full traceability of all changes and actions</li>
+</ul>
 <h3 id="11-entity-relationship-diagram">1.1 Entity-Relationship Diagram</h3>
 <pre class="mermaid"><code>erDiagram
     TRANSPORTER ||--o{ VEHICLE : owns

@@ -7,6 +7,7 @@ The SORAT platform exposes a comprehensive set of RESTful and real-time APIs to 
 ## 1. API Structure
 
 APIs are organized by functional domains:
+
 - **Authentication:** User and device login, registration, and profile management
 - **Transporter Management:** Company, vehicle, and driver operations
 - **Vehicle & Plate Recognition:** ANPR, vehicle status, and history

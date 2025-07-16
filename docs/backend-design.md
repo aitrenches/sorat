@@ -7,6 +7,7 @@ The SORAT backend is engineered for reliability, scalability, and security. It o
 ## 1. Backend Service Architecture
 
 The backend is composed of several core services and components:
+
 - **API Gateway:** Central entry point for all client and device requests
 - **Authentication & Authorization:** Role-based access control for all users and devices
 - **Business Logic Services:** Handles scheduling, transaction management, and workflow automation

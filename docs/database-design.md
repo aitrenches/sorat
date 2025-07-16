@@ -7,6 +7,7 @@ The SORAT platform uses a robust, scalable, and secure database architecture to 
 ## 1. Entity-Relationship Model
 
 The core database entities include:
+
 - **Transporter:** Company and vehicle registration
 - **Vehicle:** Plate number, type, and operational status
 - **Transaction:** Import/export operations, status, and timestamps

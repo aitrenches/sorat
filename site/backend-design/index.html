@@ -674,14 +674,16 @@
 <h2 id="overview">Overview</h2>
 <p>The SORAT backend is engineered for reliability, scalability, and security. It orchestrates all business logic, data management, integrations, and real-time communications for the port management platform. The backend is modular, API-driven, and supports both cloud and on-premise deployments.</p>
 <h2 id="1-backend-service-architecture">1. Backend Service Architecture</h2>
-<p>The backend is composed of several core services and components:
-- <strong>API Gateway:</strong> Central entry point for all client and device requests
-- <strong>Authentication &amp; Authorization:</strong> Role-based access control for all users and devices
-- <strong>Business Logic Services:</strong> Handles scheduling, transaction management, and workflow automation
-- <strong>Database Layer:</strong> Stores all operational, transactional, and audit data
-- <strong>Notification Engine:</strong> Manages SMS, WhatsApp, email, and push notifications
-- <strong>Integration Layer:</strong> Connects with external systems (e.g., barrier gates, weight sensors, port authority APIs)
-- <strong>Analytics &amp; Reporting:</strong> Aggregates and analyzes operational data for dashboards and KPIs</p>
+<p>The backend is composed of several core services and components:</p>
+<ul>
+<li><strong>API Gateway:</strong> Central entry point for all client and device requests</li>
+<li><strong>Authentication &amp; Authorization:</strong> Role-based access control for all users and devices</li>
+<li><strong>Business Logic Services:</strong> Handles scheduling, transaction management, and workflow automation</li>
+<li><strong>Database Layer:</strong> Stores all operational, transactional, and audit data</li>
+<li><strong>Notification Engine:</strong> Manages SMS, WhatsApp, email, and push notifications</li>
+<li><strong>Integration Layer:</strong> Connects with external systems (e.g., barrier gates, weight sensors, port authority APIs)</li>
+<li><strong>Analytics &amp; Reporting:</strong> Aggregates and analyzes operational data for dashboards and KPIs</li>
+</ul>
 <h3 id="11-backend-component-architecture-diagram">1.1 Backend Component Architecture Diagram</h3>
 <pre class="mermaid"><code>graph TD
     A[API Gateway] --&gt; B[Authentication Service]
