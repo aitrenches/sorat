@@ -2,7 +2,7 @@
 
 ## Overview
 
-The SORAT platform exposes a comprehensive set of RESTful and real-time APIs to support all business processes, integrations, and user interactions. The API layer is designed for security, scalability, and ease of integration with both internal and external systems.
+The SRT platform exposes a comprehensive set of RESTful and real-time APIs to support all business processes, integrations, and user interactions. The API layer is designed for security, scalability, and ease of integration with both internal and external systems.
 
 ## 1. API Structure
 

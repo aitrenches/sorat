@@ -2,7 +2,7 @@
 
 ## Overview
 
-The SORAT backend is engineered for reliability, scalability, and security. It orchestrates all business logic, data management, integrations, and real-time communications for the port management platform. The backend is modular, API-driven, and supports both cloud and on-premise deployments.
+The SRT backend is engineered for reliability, scalability, and security. It orchestrates all business logic, data management, integrations, and real-time communications for the port management platform. The backend is modular, API-driven, and supports both cloud and on-premise deployments.
 
 ## 1. Backend Service Architecture
 

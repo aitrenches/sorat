@@ -3,7 +3,7 @@
 
 ### Overview
 
-The SORAT platform features an advanced **interactive dashboard** that transforms complex port operations into an intuitive, map-based visual experience. The dashboard provides real-time visualization of trucks, containers, and cargo as they move along defined routes, passing through various checkpoints and clearance points throughout the port facility.
+The SRT platform features an advanced **interactive dashboard** that transforms complex port operations into an intuitive, map-based visual experience. The dashboard provides real-time visualization of trucks, containers, and cargo as they move along defined routes, passing through various checkpoints and clearance points throughout the port facility.
 
 ## 1. Core Design Principles
 
@@ -28,7 +28,7 @@ The SORAT platform features an advanced **interactive dashboard** that transform
 
 #### 2.1.1 Port Map Layout
 ```
-🏗️ PORT SORAT - LIVE OPERATIONS MAP
+🏗️ PORT SRT - LIVE OPERATIONS MAP
 ┌─────────────────────────────────────────────────────────────┐
 │  🚪 ENTRY GATE    🏢 ADMIN BUILDING    📡 CONTROL TOWER    │
 │       ▲                   ▲                    ▲            │
@@ -129,7 +129,7 @@ The SORAT platform features an advanced **interactive dashboard** that transform
 #### 3.1.1 Admin Dashboard
 ```
 ┌─────────────────────────────────────────────────────────┐
-│ 🏢 SORAT ADMIN CONTROL CENTER                          │
+│ 🏢 SRT ADMIN CONTROL CENTER                          │
 ├─────────────────────────────────────────────────────────┤
 │ 📊 REAL-TIME METRICS                                   │
 │ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐        │
@@ -196,7 +196,7 @@ The SORAT platform features an advanced **interactive dashboard** that transform
 ```
 📱 MOBILE INTERFACE (Portrait)
 ┌─────────────────────┐
-│ 🏢 SORAT            │
+│ 🏢 SRT            │
 │ ┌─────────────────┐ │
 │ │ 🚛 [ABC123]     │ │
 │ │ Status: 🟢 READY │ │
@@ -300,7 +300,7 @@ The interactive dashboard transforms the complex world of port management into a
 
 The operational map metaphor makes complex operations immediately understandable, while the color-coding system provides instant status recognition. Real-time animations and interactive elements keep users engaged and informed about the dynamic port environment.
 
-This design approach not only improves operational efficiency but also enhances user satisfaction and reduces training time, making SORAT a truly modern port management solution.
+This design approach not only improves operational efficiency but also enhances user satisfaction and reduces training time, making SRT a truly modern port management solution.
 
 ---
 

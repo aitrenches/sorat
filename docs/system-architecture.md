@@ -2,7 +2,7 @@
 
 ## Overview
 
-SORAT is built on a robust, modular architecture that combines IoT edge devices, AI-powered recognition, secure cloud/on-premise backend services, and real-time dashboards. The system is designed for scalability, security, and seamless integration with port operations.
+SRT is built on a robust, modular architecture that combines IoT edge devices, AI-powered recognition, secure cloud/on-premise backend services, and real-time dashboards. The system is designed for scalability, security, and seamless integration with port operations.
 
 ## 1. High-Level System Architecture
 

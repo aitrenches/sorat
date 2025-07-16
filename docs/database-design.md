@@ -2,7 +2,7 @@
 
 ## Overview
 
-The SORAT platform uses a robust, scalable, and secure database architecture to manage all operational, transactional, and audit data. The design supports real-time operations, historical analytics, and regulatory compliance, while ensuring data integrity and high availability.
+The SRT platform uses a robust, scalable, and secure database architecture to manage all operational, transactional, and audit data. The design supports real-time operations, historical analytics, and regulatory compliance, while ensuring data integrity and high availability.
 
 ## 1. Entity-Relationship Model
 

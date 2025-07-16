@@ -2,7 +2,7 @@
 
 ## Overview
 
-SORAT supports flexible deployment options to meet the needs of modern port operations, including cloud, on-premise, and hybrid models. The deployment process is designed for reliability, scalability, and security, ensuring minimal downtime and rapid go-live.
+SRT supports flexible deployment options to meet the needs of modern port operations, including cloud, on-premise, and hybrid models. The deployment process is designed for reliability, scalability, and security, ensuring minimal downtime and rapid go-live.
 
 ## 1. Deployment Topology
 
@@ -58,7 +58,7 @@ graph TD
 
 ## 3. Implementation Strategy
 
-The SORAT deployment follows a phased approach:
+The SRT deployment follows a phased approach:
 
 ### 3.1 Phase 1: Foundation (Months 1-3)
 - **Backend Development:** Core API services and database setup

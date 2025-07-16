@@ -1,17 +1,22 @@
-# SORAT: Port Facility Management Software
-## Schedule On Route And Transit — Project Documentation
+<div style="text-align: center;">
+  <span style="background: #222; display: inline-block; border-radius: 12px; padding: 16px;">
+    <img src="assets/SRT-logo.png" alt="SRT Logo" width="220" />
+  </span>
+</div>
 
-Welcome to the official documentation for SORAT, a next-generation Electronic Traffic Management System Platform designed to digitize and optimize port facility operations. This site provides a comprehensive, modular reference for all stakeholders, from executives to developers.
+# SRT: Schedule On Route And Transit — Project Documentation
+
+Welcome to the official documentation for SRT, a next-generation Electronic Traffic Management System Platform designed to digitize and optimize port facility operations. This site provides a comprehensive, modular reference for all stakeholders, from executives to developers.
 
 ---
 
 ## Project Overview
-SORAT (Schedule On Route And Transit) is a scalable, secure, and IoT-enabled platform that streamlines the movement of trucks, containers, and cargo through port facilities. The system delivers real-time tracking, automated notifications, and seamless integration for all port ecosystem participants, driving operational efficiency, transparency, and security.
+SRT (Schedule On Route And Transit) is a scalable, secure, and IoT-enabled platform that streamlines the movement of trucks, containers, and cargo through port facilities. The system delivers real-time tracking, automated notifications, and seamless integration for all port ecosystem participants, driving operational efficiency, transparency, and security.
 
 ---
 
 ## Documentation Structure
-Navigate the documentation using the links below to explore each aspect of the SORAT platform in detail:
+Navigate the documentation using the links below to explore each aspect of the SRT platform in detail:
 
 - [Project Overview](project-overview.md)
 - [System Architecture](system-architecture.md)

@@ -6,10 +6,10 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="SORAT, Schedule On Route And Transit- a port management software.">
+        <meta name="description" content="SRT, Schedule On Route And Transit- a port management software.">
       
       
-        <meta name="author" content="SORAT">
+        <meta name="author" content="SRT">
       
       
         <link rel="canonical" href="https://aitrenches.github.io/sorat/backend-design/">
@@ -26,11 +26,14 @@
     
     
       
-        <title>Backend Design - SORAT</title>
+        <title>Backend Design - SRT</title>
       
     
     
       <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -59,7 +62,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="cyan">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -84,10 +92,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="SORAT" class="md-header__button md-logo" aria-label="SORAT" data-md-component="logo">
+    <a href=".." title="SRT" class="md-header__button md-logo" aria-label="SRT" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../assets/SRT-logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -98,7 +105,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            SORAT
+            SRT
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -111,8 +118,8 @@
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -194,13 +201,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="SORAT" class="md-nav__button md-logo" aria-label="SORAT" data-md-component="logo">
+    <a href=".." title="SRT" class="md-nav__button md-logo" aria-label="SRT" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../assets/SRT-logo.png" alt="logo">
 
     </a>
-    SORAT
+    SRT
   </label>
   
     <div class="md-nav__source">
@@ -672,7 +678,7 @@
 
 <h1 id="backend-design">Backend Design</h1>
 <h2 id="overview">Overview</h2>
-<p>The SORAT backend is engineered for reliability, scalability, and security. It orchestrates all business logic, data management, integrations, and real-time communications for the port management platform. The backend is modular, API-driven, and supports both cloud and on-premise deployments.</p>
+<p>The SRT backend is engineered for reliability, scalability, and security. It orchestrates all business logic, data management, integrations, and real-time communications for the port management platform. The backend is modular, API-driven, and supports both cloud and on-premise deployments.</p>
 <h2 id="1-backend-service-architecture">1. Backend Service Architecture</h2>
 <p>The backend is composed of several core services and components:</p>
 <ul>
@@ -790,7 +796,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 SORAT
+      Copyright &copy; 2025 SRT
     </div>
   
   

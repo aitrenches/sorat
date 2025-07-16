@@ -2,7 +2,7 @@
 
 ## Overview
 
-SORAT employs modern DevOps practices to ensure rapid, reliable, and secure delivery of software updates, infrastructure management, and operational monitoring. The DevOps approach enables continuous improvement, high system availability, and fast response to operational issues.
+SRT employs modern DevOps practices to ensure rapid, reliable, and secure delivery of software updates, infrastructure management, and operational monitoring. The DevOps approach enables continuous improvement, high system availability, and fast response to operational issues.
 
 ## 1. CI/CD Pipeline
 
@@ -33,7 +33,7 @@ graph TD
 
 ## 2. Infrastructure Monitoring & Alerting
 
-SORAT uses automated monitoring and alerting to ensure system health and rapid incident response:
+SRT uses automated monitoring and alerting to ensure system health and rapid incident response:
 
 - **Metrics Collection:** System, application, and network metrics are continuously collected
 - **Log Aggregation:** Centralized logging for all services

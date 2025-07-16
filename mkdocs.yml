@@ -1,18 +1,16 @@
-site_name: SORAT
-
 # Project information
-site_name: SORAT
+site_name: SRT
 site_url: https://aitrenches.github.io/sorat
-site_author: SORAT
+site_author: SRT
 site_description: >-
-  SORAT, Schedule On Route And Transit- a port management software.
+  SRT, Schedule On Route And Transit- a port management software.
 
 # Repository
 repo_name: aitrenches/sorat
 repo_url: https://github.com/aitrenches/sorat
 
 # Copyright
-copyright: Copyright &copy; 2025 SORAT
+copyright: Copyright &copy; 2025 SRT
 
 nav:
   - Home: index.md
@@ -26,6 +24,11 @@ nav:
   - Deployment: deployment.md
 theme:
   name: material
+  logo: assets/SRT-logo.png
+  palette:
+      scheme: default
+      primary: cyan # The primary color is used for the header, the sidebar, text links and several other components.
+      accent: cyan # The accent color is used to denote elements that can be interacted with, e.g. hovered links, buttons and scrollbars.
 
 markdown_extensions:
   - pymdownx.superfences

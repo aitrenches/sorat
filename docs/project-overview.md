@@ -2,11 +2,11 @@
 
 ## Introduction
 
-SORAT (Schedule On Route And Transit) is an Electronic Traffic Management System Platform designed to transform port facility operations. The platform leverages IoT, AI, and real-time data to streamline the movement of trucks, containers, and cargo, ensuring efficient, secure, and transparent port access and logistics.
+SRT (Schedule On Route And Transit) is an Electronic Traffic Management System Platform designed to transform port facility operations. The platform leverages IoT, AI, and real-time data to streamline the movement of trucks, containers, and cargo, ensuring efficient, secure, and transparent port access and logistics.
 
 ## Business Context & Objectives
 
-Port operations face increasing complexity due to growing cargo volumes, security requirements, and the need for operational efficiency. SORAT addresses these challenges by:
+Port operations face increasing complexity due to growing cargo volumes, security requirements, and the need for operational efficiency. SRT addresses these challenges by:
 - Digitizing port access and scheduling
 - Enabling real-time vehicle and cargo tracking
 - Integrating all stakeholders on a unified platform
@@ -54,7 +54,7 @@ Port operations face increasing complexity due to growing cargo volumes, securit
 
 ## Executive Summary
 
-SORAT delivers a modern, scalable, and secure solution for port facility management. By digitizing and automating critical workflows, it reduces operational friction, increases throughput, and provides the transparency and control required by today’s port authorities and logistics operators.
+SRT delivers a modern, scalable, and secure solution for port facility management. By digitizing and automating critical workflows, it reduces operational friction, increases throughput, and provides the transparency and control required by today’s port authorities and logistics operators.
 
 ---
 
