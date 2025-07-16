@@ -5,7 +5,7 @@ site_name: SORAT
 site_url: https://aitrenches.github.io/sorat
 site_author: SORAT
 site_description: >-
-  TODO
+  SORAT, Schedule On Route And Transit- a port management software.
 
 # Repository
 repo_name: aitrenches/sorat
