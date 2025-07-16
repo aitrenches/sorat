@@ -1,4 +1,19 @@
 site_name: SORAT
+
+# Project information
+site_name: SORAT
+site_url: https://aitrenches.github.io/sorat
+site_author: SORAT
+site_description: >-
+  TODO
+
+# Repository
+repo_name: aitrenches/sorat
+repo_url: https://github.com/aitrenches/sorat
+
+# Copyright
+copyright: Copyright &copy; 2025 SORAT
+
 nav:
   - Home: index.md
   - Project Overview: project-overview.md
